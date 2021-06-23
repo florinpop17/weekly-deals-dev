@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weekly Dev Deals</title>
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
+    </head>
+    <body class="bg-gray-800 min-h-screen flex flex-col">
+        <div class="container mx-auto px-4 md:px-12 max-w-screen-xl">
+            <h1 class="text-5xl text-center text-white font-bold my-12">
+                Weekly Dev Deals
+            </h1>
+            <form
+                class="
+                    bg-purple-800
+                    shadow-md
+                    py-4
+                    rounded-md
+                    text-center
+                    my-5
+                    p-3
+                "
+            >
+                <div class="text-white">
+                    <div data-element="fields" data-stacked="false"></div>
+                    <ul data-element="errors" data-group="alert"></ul>
+                </div>
+                <div class="lg:flex lg:justify-center lg:items-center relative">
+                    <h1
+                        class="
+                            text-white text-2xl
+                            md:text-3xl
+                            font-bold
+                            mb-4
+                            md:mb-0
+                        "
+                    >
+                        Get the best deals in your inbox every Thursday
+                    </h1>
+                    <div class="my-2 sm:ml-4 lg:flex">
+                        <input
+                            class="
+                                w-full
+                                py-3
+                                px-6
+                                rounded
+                                mb-4
+                                sm:mb-0 sm:w-auto
+                            "
+                            type="email"
+                            placeholder="Your Email"
+                            aria-label="Your email address"
+                            name="email_address"
+                        />
+                        <button
+                            class="
+                                w-full
+                                bg-purple-900
+                                text-white
+                                font-semibold
+                                py-3
+                                px-6
+                                sm:w-auto sm:ml-2
+                                rounded
+                            "
+                        >
+                            Subscribe
+                        </button>
+                    </div>
+                    <small class="text-purple-200 italic lg:hidden">
+                        No spam. Unsubscribe at any time.
+                    </small>
+                </div>
+            </form>
+        </div>
+
+        <div class="container mx-auto mb-12 px-4 md:px-12 max-w-screen-xl">
+            <h2
+                class="
+                    text-5xl text-white
+                    font-semibold
+                    mt-12
+                    mb-8
+                    text-center
+                    md:text-left
+                "
+            >
+                Featured Deals
+            </h2>
+            <div
+                class="
+                    flex flex-col
+                    space-y-6
+                    md:flex-row md:space-y-0 md:space-x-6
+                    justify-between
+                    items-center
+                "
+            >
+                <a
+                    class="
+                        md:max-w-xl
+                        h-96
+                        relative
+                        rounded-sm
+                        overflow-hidden
+                        transform
+                        transition
+                        hover:-translate-y-1 hover:shadow-xl
+                    "
+                    href="#"
+                >
+                    <span
+                        class="
+                            bg-purple-700
+                            text-white text-3xl
+                            font-semibold
+                            py-3
+                            px-4
+                            top-0
+                            right-0
+                            absolute
+                            rounded-bl-sm
+                        "
+                        >Featured</span
+                    >
+                    <img
+                        class="w-full h-full object-cover"
+                        src="./pic1.jpg"
+                        alt="ebook"
+                    />
+                    <span
+                        class="
+                            text-4xl text-white
+                            absolute
+                            bottom-0
+                            left-0
+                            bg-purple-700
+                            py-2
+                            px-3
+                            rounded-tr-sm
+                        "
+                    >
+                        $50
+                        <del class="text-lg">$100</del>
+                    </span>
+                </a>
+                <a
+                    class="
+                        md:max-w-xl
+                        h-96
+                        relative
+                        rounded-sm
+                        overflow-hidden
+                        transform
+                        transition
+                        hover:-translate-y-1 hover:shadow-xl
+                    "
+                    href="#"
+                >
+                    <span
+                        class="
+                            bg-purple-700
+                            text-white text-3xl
+                            font-semibold
+                            py-3
+                            px-4
+                            top-0
+                            right-0
+                            absolute
+                            rounded-bl-sm
+                        "
+                        >Featured</span
+                    >
+                    <img
+                        class="w-full h-full object-cover"
+                        src="./pic2.jpg"
+                        alt="ebook"
+                    />
+                    <span
+                        class="
+                            text-4xl text-white
+                            absolute
+                            bottom-0
+                            left-0
+                            bg-purple-700
+                            py-2
+                            px-3
+                            rounded-tr-sm
+                        "
+                    >
+                        $20
+                        <del class="text-lg">$70</del>
+                    </span>
+                </a>
+            </div>
+
+            <h2
+                class="
+                    text-5xl text-white
+                    font-semibold
+                    mt-12
+                    mb-8
+                    text-center
+                    md:text-left
+                "
+            >
+                Free Deals
+            </h2>
+            <div
+                class="
+                    flex flex-col
+                    space-y-6
+                    md:flex-row md:space-y-0 md:space-x-6
+                    justify-between
+                    items-center
+                "
+            >
+                <a
+                    class="
+                        max-w-sm
+                        h-60
+                        relative
+                        rounded-sm
+                        overflow-hidden
+                        transform
+                        transition
+                        hover:-translate-y-1 hover:shadow-xl
+                    "
+                    href="#"
+                >
+                    <img
+                        class="w-full h-full object-cover"
+                        src="./pic1.jpg"
+                        alt="ebook"
+                    />
+                    <span
+                        class="
+                            text-2xl text-white
+                            font-bold
+                            absolute
+                            bottom-0
+                            left-0
+                            bg-purple-700
+                            py-2
+                            px-3
+                            rounded-tr-sm
+                        "
+                    >
+                        FREE
+                    </span>
+                </a>
+                <a
+                    class="
+                        max-w-sm
+                        h-60
+                        relative
+                        rounded-sm
+                        overflow-hidden
+                        transform
+                        transition
+                        hover:-translate-y-1 hover:shadow-xl
+                    "
+                    href="#"
+                >
+                    <img
+                        class="w-full h-full object-cover"
+                        src="./ebook-cover.jpg"
+                        alt="ebook"
+                    />
+                    <span
+                        class="
+                            text-2xl text-white
+                            font-bold
+                            absolute
+                            bottom-0
+                            left-0
+                            bg-purple-700
+                            py-2
+                            px-3
+                            rounded-tr-sm
+                        "
+                    >
+                        FREE
+                    </span>
+                </a>
+                <a
+                    class="
+                        max-w-sm
+                        h-60
+                        relative
+                        rounded-sm
+                        overflow-hidden
+                        transform
+                        transition
+                        hover:-translate-y-1 hover:shadow-xl
+                    "
+                    href="#"
+                >
+                    <img
+                        class="w-full h-full object-cover"
+                        src="./pic2.jpg"
+                        alt="ebook"
+                    />
+                    <span
+                        class="
+                            text-2xl text-white
+                            font-bold
+                            absolute
+                            bottom-0
+                            left-0
+                            bg-purple-700
+                            py-2
+                            px-3
+                            rounded-tr-sm
+                        "
+                    >
+                        FREE
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <footer class="container mx-auto max-w-screen-xl mt-auto px-4 md:px-12">
+            <div class="bg-purple-800 text-white py-3 rounded-t-lg">
+                <p class="text-center">
+                    Built by
+                    <a
+                        class="font-bold"
+                        target="_blank"
+                        href="https://twitter.com/florinpop1705"
+                    >
+                        Florin Pop
+                    </a>
+                    for the
+
+                    <a
+                        class="font-bold"
+                        target="_blank"
+                        href="https://makemoney.dev/blog/from-0-to-100k"
+                    >
+                        $0 to $100k challenge.
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
