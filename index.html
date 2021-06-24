@@ -4,6 +4,24 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <title>Weekly Deals for Devs</title>
         <link
             href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
@@ -22,68 +40,170 @@
             <h1 class="text-5xl text-center text-white font-bold my-12">
                 Weekly Deals for Devs
             </h1>
-            <form
-                class="
-                    bg-purple-800
-                    shadow-md
-                    py-4
-                    rounded-md
-                    text-center
-                    my-5
-                    p-3
-                "
-            >
-                <div class="text-white">
-                    <div data-element="fields" data-stacked="false"></div>
-                    <ul data-element="errors" data-group="alert"></ul>
-                </div>
-                <div class="lg:flex lg:justify-center lg:items-center relative">
-                    <h1
+
+            <div class="py-4 rounded-md text-center my-5 p-3">
+                <div
+                    class="
+                        flex flex-col
+                        md:flex-row
+                        justify-center
+                        items-center
+                        relative
+                        space-y-8
+                        md:space-x-8 md:space-y-0
+                    "
+                >
+                    <div
                         class="
-                            text-white text-2xl
-                            md:text-3xl
-                            font-bold
-                            mb-4
-                            md:mb-0
+                            bg-purple-800
+                            text-white
+                            container
+                            p-2
+                            rounded-lg
+                            w-96
                         "
                     >
-                        Get the best deals in your inbox every Thursday
-                    </h1>
-                    <div class="my-2 sm:ml-4 lg:flex">
-                        <input
+                        <h2
                             class="
-                                w-full
-                                py-3
-                                px-6
-                                rounded
-                                mb-4
-                                sm:mb-0 sm:w-auto
-                            "
-                            type="email"
-                            placeholder="Your Email"
-                            aria-label="Your email address"
-                            name="email_address"
-                        />
-                        <button
-                            class="
-                                w-full
-                                bg-purple-900
-                                text-white
-                                font-semibold
-                                py-3
-                                px-6
-                                sm:w-auto sm:ml-2
-                                rounded
+                                text-white text-2xl
+                                md:text-3xl
+                                font-bold
+                                mb-7
                             "
                         >
-                            Subscribe
-                        </button>
+                            New Deals in
+                        </h2>
+                        <div class="flex justify-center items-center space-x-4">
+                            <p
+                                class="
+                                    bg-purple-900
+                                    w-16
+                                    h-16
+                                    flex flex-col
+                                    justify-between
+                                    items-center
+                                    rounded-lg
+                                "
+                            >
+                                <span id="days" class="text-3xl font-bold"
+                                    >XX</span
+                                >
+                                <span class="text-lg">days</span>
+                            </p>
+                            <p
+                                class="
+                                    bg-purple-900
+                                    w-16
+                                    h-16
+                                    flex flex-col
+                                    justify-between
+                                    items-center
+                                    rounded-lg
+                                "
+                            >
+                                <span id="hours" class="text-3xl font-bold"
+                                    >XX</span
+                                >
+                                <span class="text-lg">hours</span>
+                            </p>
+                            <p
+                                class="
+                                    bg-purple-900
+                                    w-16
+                                    h-16
+                                    flex flex-col
+                                    justify-between
+                                    items-center
+                                    rounded-lg
+                                "
+                            >
+                                <span id="min" class="text-3xl font-bold"
+                                    >XX</span
+                                >
+                                <span class="text-lg">min</span>
+                            </p>
+                            <p
+                                class="
+                                    bg-purple-900
+                                    w-16
+                                    h-16
+                                    flex flex-col
+                                    justify-between
+                                    items-center
+                                    rounded-lg
+                                "
+                            >
+                                <span id="sec" class="text-3xl font-bold"
+                                    >XX</span
+                                >
+                                <span class="text-lg">sec</span>
+                            </p>
+                        </div>
                     </div>
-                    <small class="text-purple-200 italic lg:hidden">
-                        No spam. Unsubscribe at any time.
-                    </small>
+                    <form
+                        class="
+                            flex flex-col
+                            bg-purple-800
+                            text-white
+                            container
+                            p-2
+                            rounded-lg
+                            w-96
+                        "
+                    >
+                        <div class="text-white">
+                            <div
+                                data-element="fields"
+                                data-stacked="false"
+                            ></div>
+                            <ul data-element="errors" data-group="alert"></ul>
+                        </div>
+                        <h2
+                            class="
+                                text-white text-2xl
+                                md:text-3xl
+                                font-bold
+                                mb-2
+                            "
+                        >
+                            Get Notified 👇
+                        </h2>
+                        <div class="my-2 mx-auto flex">
+                            <input
+                                class="
+                                    w-full
+                                    py-3
+                                    px-6
+                                    rounded
+                                    mb-4
+                                    sm:mb-0 sm:w-auto
+                                "
+                                type="email"
+                                placeholder="Your Email"
+                                aria-label="Your email address"
+                                name="email_address"
+                            />
+                            <button
+                                class="
+                                    w-full
+                                    bg-purple-900
+                                    text-white
+                                    font-semibold
+                                    py-3
+                                    px-6
+                                    sm:w-auto sm:ml-2
+                                    rounded
+                                "
+                            >
+                                Subscribe
+                            </button>
+                        </div>
+                        <small class="text-purple-200 italic">
+                            No spam. Unsubscribe at any time.
+                        </small>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
 
         <div class="container mx-auto mb-12 px-4 md:px-12 max-w-screen-xl">
@@ -339,8 +459,18 @@
         </div>
 
         <footer class="container mx-auto max-w-screen-xl mt-auto px-4 md:px-12">
-            <div class="bg-purple-800 text-white py-3 rounded-t-lg">
-                <p class="text-center">
+            <div
+                class="
+                    flex
+                    justify-between
+                    bg-purple-800
+                    text-white
+                    py-3
+                    px-6
+                    rounded-t-lg
+                "
+            >
+                <p>
                     Built by
                     <a
                         class="font-bold"
@@ -359,6 +489,9 @@
                         $0 to $100k challenge.
                     </a>
                 </p>
+                <a class="font-bold" href="https://plausible.io/weeklydeals.dev"
+                    >Website Stats</a
+                >
             </div>
         </footer>
     </body>
