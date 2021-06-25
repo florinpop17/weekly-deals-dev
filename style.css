@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-twitter {
+    background-color: #1da1f2;
+}
+
+.bg-facebook {
+    background-color: #1877f2;
+}
+
+.bg-linkedin {
+    background-color: #0a66c2;
+}
