@@ -76,6 +76,28 @@
     </head>
     <body class="bg-gray-800 min-h-screen flex flex-col">
         <div class="container mx-auto px-4 md:px-12 max-w-screen-xl">
+            <div class="flex -mb-10">
+                <button
+                    class="
+                        bg-purple-800
+                        text-white
+                        font-semibold
+                        rounded-b
+                        px-4
+                        pt-4
+                        pb-2
+                        ml-auto
+                        transform
+                        transition
+                        -translate-y-2
+                        hover:translate-y-0
+                    "
+                    id="open_btn"
+                >
+                    Get Your Product Featured
+                </button>
+            </div>
+
             <h1 class="text-5xl text-center text-white font-bold my-12">
                 Weekly Deals for Devs
             </h1>
@@ -319,5 +341,125 @@
                 >
             </div>
         </footer>
+
+        <div
+            class="
+                bg-gray-800 bg-opacity-70
+                fixed
+                inset-0
+                flex
+                justify-center
+                items-center
+                hidden
+            "
+            id="modal"
+        >
+            <div
+                class="
+                    bg-purple-800
+                    text-white
+                    rounded-lg
+                    shadow-xl
+                    overflow-hidden
+                "
+            >
+                <header class="bg-purple-900 p-6 relative">
+                    <button class="absolute top-2 right-2" id="close_btn">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-circle-x"
+                            width="32"
+                            height="32"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="#dddddd"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M10 10l4 4m0 -4l-4 4" />
+                        </svg>
+                    </button>
+                    <h3 class="text-3xl font-bold text-center">
+                        Feature your product
+                    </h3>
+                    <p class="text-xl my-4 max-w-md text-center mx-auto">
+                        Feel free to send an email by filling in the form below
+                        with the details of your product and if it's a good fit
+                        we'll feature it. 😊
+                    </p>
+                </header>
+                <form
+                    class="space-y-6 p-6"
+                    name="contact"
+                    method="POST"
+                    data-netlify="true"
+                >
+                    <div
+                        class="
+                            flex flex-col
+                            md:flex-row
+                            justify-between
+                            space-y-6
+                            md:space-y-0 md:space-x-6
+                        "
+                    >
+                        <div>
+                            <label class="text-xl font-medium" for="name">
+                                Name:
+                            </label>
+                            <input
+                                class="w-full py-3 px-6 mt-1 rounded"
+                                type="text"
+                                name="name"
+                                id="name"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label class="text-xl font-medium" for="email">
+                                Email:
+                            </label>
+                            <input
+                                class="w-full py-3 px-6 mt-1 rounded"
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-xl font-medium" for="message">
+                            Message:
+                        </label>
+                        <textarea
+                            class="w-full py-3 px-6 mt-1 rounded h-48"
+                            name="message"
+                            id="message"
+                            required
+                        ></textarea>
+                    </div>
+                    <div>
+                        <button
+                            class="
+                                w-full
+                                bg-purple-900
+                                text-white
+                                font-semibold
+                                py-3
+                                px-6
+                                rounded
+                            "
+                            type="submit"
+                        >
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

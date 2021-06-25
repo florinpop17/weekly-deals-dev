@@ -6,11 +6,34 @@ const secEl = document.getElementById("sec");
 const freeDealsEl = document.getElementById("free_deals");
 const featuredDealsEl = document.getElementById("featured_deals");
 
+const openBtn = document.getElementById("open_btn");
+const closeBtn = document.getElementById("close_btn");
+const modal = document.getElementById("modal");
+
 const endTime = new Date("July 1 2021 23:59:59");
 
 countdown();
 
 setInterval(countdown, 1000);
+
+// Event Listeners
+openBtn.addEventListener("click", () => {
+    modal.classList.remove("hidden");
+});
+
+closeBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
+});
+
+// Getting the deals from the JSON
+fetch("./deals.json")
+    .then((body) => body.json())
+    .then((data) => {
+        const { featured, free } = data;
+
+        featured.forEach((product) => createFeaturedProduct(product));
+        free.forEach((product) => createFreeProduct(product));
+    });
 
 function countdown() {
     const startTime = new Date();
@@ -24,15 +47,6 @@ function countdown() {
     minEl.innerHTML = minutes < 10 ? "0" + minutes : minutes;
     secEl.innerHTML = seconds < 10 ? "0" + seconds : seconds;
 }
-
-fetch("./deals.json")
-    .then((body) => body.json())
-    .then((data) => {
-        const { featured, free } = data;
-
-        featured.forEach((product) => createFeaturedProduct(product));
-        free.forEach((product) => createFreeProduct(product));
-    });
 
 function createFreeProduct(product) {
     const a = document.createElement("a");
