@@ -655,6 +655,10 @@ video {
   display: table;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -677,10 +681,6 @@ video {
 
 .w-16 {
   width: 4rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-full {
@@ -984,6 +984,13 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:w-96 {
+    width: 24rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1005,6 +1012,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {

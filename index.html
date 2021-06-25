@@ -22,7 +22,50 @@
             href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Weekly Deals for Devs</title>
+
+        <!-- HTML Meta Tags -->
+        <title>Weekly Deals for Developers</title>
+        <meta
+            name="description"
+            content="Get new deals for developer-related products on a weekly basis."
+        />
+
+        <!-- Google / Search Engine Tags -->
+        <meta itemprop="name" content="Weekly Deals for Developers" />
+        <meta
+            itemprop="description"
+            content="Get new deals for developer-related products on a weekly basis."
+        />
+        <meta
+            itemprop="image"
+            content="https://weeklydeals.dev/images/thumbnail.png"
+        />
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://weeklydeals.dev" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Weekly Deals for Developers" />
+        <meta
+            property="og:description"
+            content="Get new deals for developer-related products on a weekly basis."
+        />
+        <meta
+            property="og:image"
+            content="https://weeklydeals.dev/images/thumbnail.png"
+        />
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Weekly Deals for Developers" />
+        <meta
+            name="twitter:description"
+            content="Get new deals for developer-related products on a weekly basis."
+        />
+        <meta
+            name="twitter:image"
+            content="https://weeklydeals.dev/images/thumbnail.png"
+        />
+
         <link rel="stylesheet" href="tailwind.css" />
         <script
             defer
@@ -56,7 +99,8 @@
                             container
                             p-4
                             rounded-lg
-                            w-96
+                            w-full
+                            sm:w-96
                         "
                     >
                         <h2 class="text-white text-3xl font-bold mb-7">
@@ -136,7 +180,8 @@
                             container
                             p-4
                             rounded-lg
-                            w-96
+                            w-full
+                            sm:w-96
                         "
                     >
                         <div class="text-white">
@@ -208,108 +253,8 @@
                     justify-between
                     items-center
                 "
-            >
-                <a
-                    class="
-                        w-full
-                        md:max-w-xl
-                        h-96
-                        relative
-                        rounded-sm
-                        overflow-hidden
-                        transform
-                        transition
-                        hover:-translate-y-1 hover:shadow-xl
-                    "
-                    href="#"
-                >
-                    <span
-                        class="
-                            bg-purple-700
-                            text-white text-3xl
-                            font-semibold
-                            py-3
-                            px-4
-                            top-0
-                            right-0
-                            absolute
-                            rounded-bl-sm
-                        "
-                        >Featured</span
-                    >
-
-                    <img
-                        class="w-full h-full object-cover"
-                        src="http://placekitten.com/g/200/305"
-                        alt="ebook"
-                    />
-                    <span
-                        class="
-                            text-4xl text-white
-                            absolute
-                            bottom-0
-                            left-0
-                            bg-purple-700
-                            py-2
-                            px-3
-                            rounded-tr-sm
-                        "
-                    >
-                        $50
-                        <del class="text-lg">$100</del>
-                    </span>
-                </a>
-                <a
-                    class="
-                        w-full
-                        md:max-w-xl
-                        h-96
-                        relative
-                        rounded-sm
-                        overflow-hidden
-                        transform
-                        transition
-                        hover:-translate-y-1 hover:shadow-xl
-                    "
-                    href="#"
-                >
-                    <span
-                        class="
-                            bg-purple-700
-                            text-white text-3xl
-                            font-semibold
-                            py-3
-                            px-4
-                            top-0
-                            right-0
-                            absolute
-                            rounded-bl-sm
-                        "
-                        >Featured</span
-                    >
-                    <img
-                        class="w-full h-full object-cover"
-                        src="http://placekitten.com/g/200/304"
-                        alt="ebook"
-                    />
-                    <span
-                        class="
-                            text-4xl text-white
-                            absolute
-                            bottom-0
-                            left-0
-                            bg-purple-700
-                            py-2
-                            px-3
-                            rounded-tr-sm
-                        "
-                    >
-                        $20
-                        <del class="text-lg">$70</del>
-                    </span>
-                </a>
-            </div>
-
+                id="featured_deals"
+            ></div>
             <h2
                 class="
                     text-5xl text-white
@@ -330,120 +275,16 @@
                     justify-between
                     items-center
                 "
-            >
-                <a
-                    class="
-                        w-full
-                        max-w-sm
-                        h-60
-                        relative
-                        rounded-sm
-                        overflow-hidden
-                        transform
-                        transition
-                        hover:-translate-y-1 hover:shadow-xl
-                    "
-                    href="#"
-                >
-                    <img
-                        class="w-full h-full object-cover"
-                        src="http://placekitten.com/g/200/303"
-                        alt="ebook"
-                    />
-                    <span
-                        class="
-                            text-2xl text-white
-                            font-bold
-                            absolute
-                            bottom-0
-                            left-0
-                            bg-purple-700
-                            py-2
-                            px-3
-                            rounded-tr-sm
-                        "
-                    >
-                        FREE
-                    </span>
-                </a>
-                <a
-                    class="
-                        w-full
-                        max-w-sm
-                        h-60
-                        relative
-                        rounded-sm
-                        overflow-hidden
-                        transform
-                        transition
-                        hover:-translate-y-1 hover:shadow-xl
-                    "
-                    href="#"
-                >
-                    <img
-                        class="w-full h-full object-cover"
-                        src="http://placekitten.com/g/200/302"
-                        alt="ebook"
-                    />
-                    <span
-                        class="
-                            text-2xl text-white
-                            font-bold
-                            absolute
-                            bottom-0
-                            left-0
-                            bg-purple-700
-                            py-2
-                            px-3
-                            rounded-tr-sm
-                        "
-                    >
-                        FREE
-                    </span>
-                </a>
-                <a
-                    class="
-                        w-full
-                        max-w-sm
-                        h-60
-                        relative
-                        rounded-sm
-                        overflow-hidden
-                        transform
-                        transition
-                        hover:-translate-y-1 hover:shadow-xl
-                    "
-                    href="#"
-                >
-                    <img
-                        class="w-full h-full object-cover"
-                        src="http://placekitten.com/g/200/301"
-                        alt="ebook"
-                    />
-                    <span
-                        class="
-                            text-2xl text-white
-                            font-bold
-                            absolute
-                            bottom-0
-                            left-0
-                            bg-purple-700
-                            py-2
-                            px-3
-                            rounded-tr-sm
-                        "
-                    >
-                        FREE
-                    </span>
-                </a>
-            </div>
+                id="free_deals"
+            ></div>
         </div>
 
         <footer class="container mx-auto max-w-screen-xl mt-auto px-4 md:px-12">
             <div
                 class="
                     flex
-                    justify-between
+                    justify-center
+                    md:justify-between
                     bg-purple-800
                     text-white
                     py-3
@@ -451,7 +292,7 @@
                     rounded-t-lg
                 "
             >
-                <p>
+                <p class="text-center">
                     Built by
                     <a
                         class="font-bold"
@@ -472,7 +313,7 @@
                 </p>
                 <a
                     target="_blank"
-                    class="font-bold"
+                    class="font-bold hidden sm:block"
                     href="https://plausible.io/weeklydeals.dev"
                     >Website Stats</a
                 >

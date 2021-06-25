@@ -1,0 +1,35 @@
+{
+    "featured": [
+        {
+            "title": "Kitten 1",
+            "url": "#",
+            "image_url": "http://makemoney.dev/ebook-cover.jpg",
+            "old_price": "25",
+            "new_price": "20"
+        },
+        {
+            "title": "Kitten 2",
+            "url": "#",
+            "image_url": "http://placekitten.com/g/200/300",
+            "old_price": "70",
+            "new_price": "20"
+        }
+    ],
+    "free": [
+        {
+            "title": "Kitten 3",
+            "url": "#",
+            "image_url": "http://placekitten.com/g/200/301"
+        },
+        {
+            "title": "Kitten 4",
+            "url": "#",
+            "image_url": "http://placekitten.com/g/200/302"
+        },
+        {
+            "title": "Kitten 5",
+            "url": "#",
+            "image_url": "http://placekitten.com/g/200/304"
+        }
+    ]
+}
