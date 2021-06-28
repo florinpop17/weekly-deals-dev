@@ -6,7 +6,7 @@ This is the repo for the project.
 
 ```
 
-NODE_ENV=production npx tailwindcss-cli@latest build ./style.css -o ./tailwind.css
+NODE_ENV=production npx tailwindcss-cli@latest build ./style.css -o ./tailwind.css --watch
 
 ```
 

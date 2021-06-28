@@ -76,9 +76,11 @@
         <script defer src="script.js"></script>
     </head>
     <body class="bg-gray-800 min-h-screen flex flex-col">
-        <div class="container mx-auto px-4 md:px-12 max-w-screen-xl">
-            <div class="flex -mb-10 justify-between">
-                <div class="flex space-x-1">
+        <div
+            class="container mx-auto px-4 md:px-12 max-w-screen-xl order-first"
+        >
+            <div class="flex -mb-10 justify-center sm:justify-between">
+                <div class="space-x-1 hidden sm:flex">
                     <a
                         target="_blank"
                         href="https://twitter.com/intent/tweet?text=Check%20out%20these%20awesome%20deals%20on%20https%3A//weeklydeals.dev"
@@ -245,11 +247,31 @@
                 </button>
             </div>
 
-            <h1 class="text-5xl text-center text-white font-bold my-12">
+            <h1
+                class="
+                    text-5xl text-center text-white
+                    font-bold
+                    my-12
+                    hidden
+                    sm:block
+                "
+            >
                 Weekly Deals for Devs
             </h1>
+        </div>
 
-            <div class="py-4 rounded-md text-center my-5 p-3">
+        <div
+            class="
+                container
+                mx-auto
+                px-4
+                md:px-12
+                max-w-screen-xl
+                order-last
+                sm:order-first
+            "
+        >
+            <div class="py-4 rounded-md text-center my-5">
                 <div
                     class="
                         flex flex-col
@@ -448,7 +470,17 @@
             ></div>
         </div>
 
-        <footer class="container mx-auto max-w-screen-xl mt-auto px-4 md:px-12">
+        <footer
+            class="
+                container
+                mx-auto
+                max-w-screen-xl
+                mt-auto
+                px-4
+                md:px-12
+                order-last
+            "
+        >
             <div
                 class="
                     flex
