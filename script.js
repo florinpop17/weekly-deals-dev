@@ -10,7 +10,7 @@ const openBtn = document.getElementById("open_btn");
 const closeBtn = document.getElementById("close_btn");
 const modal = document.getElementById("modal");
 
-const endTime = new Date("July 1 2021 23:59:59");
+let endTime = undefined;
 
 countdown();
 
@@ -29,10 +29,11 @@ closeBtn.addEventListener("click", () => {
 fetch("./deals.json")
     .then((body) => body.json())
     .then((data) => {
-        const { featured, free } = data;
+        const { featured, free, new_deals_date } = data;
 
         featured.forEach((product) => createFeaturedProduct(product));
         free.forEach((product) => createFreeProduct(product));
+        endTime = new Date(new_deals_date);
     });
 
 function countdown() {

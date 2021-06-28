@@ -688,6 +688,10 @@ video {
   margin-bottom: -2.5rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
