@@ -31,9 +31,9 @@ fetch("./deals.json")
     .then((data) => {
         const { featured, free, new_deals_date } = data;
 
+        endTime = new Date(new_deals_date);
         featured.forEach((product) => createFeaturedProduct(product));
         free.forEach((product) => createFreeProduct(product));
-        endTime = new Date(new_deals_date);
     });
 
 function countdown() {
