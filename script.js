@@ -37,6 +37,8 @@ fetch("./deals.json")
     });
 
 function countdown() {
+    if (!endTime) return;
+
     const startTime = new Date();
     const diff = endTime - startTime;
     const days = Math.floor(diff / 1000 / 60 / 60 / 24);
