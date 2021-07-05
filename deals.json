@@ -1,36 +1,41 @@
 {
-    "new_deals_date": "July 5 2021 00:00:00",
+    "new_deals_date": "July 12 2021 00:00:00",
     "featured": [
         {
-            "title": "Kitten 1",
-            "url": "#",
-            "image_url": "http://makemoney.dev/ebook-cover.jpg",
-            "old_price": "25",
-            "new_price": "20"
+            "title": "Freelancing Bundle",
+            "url": "https://gumroad.com/l/freelancerbundle/devdeals",
+            "short_url": "https://bit.ly/wdd_freelancing_bundle",
+            "image_url": "/images/freelancing_bundle.jpeg",
+            "old_price": "69",
+            "new_price": "49"
         },
         {
-            "title": "Kitten 2",
-            "url": "#",
-            "image_url": "http://placekitten.com/g/200/300",
-            "old_price": "70",
-            "new_price": "20"
+            "title": "Premium Bootstrap Themes",
+            "url": "https://themesberg.com/summer-sale?status=accepted&expires=1627740149&p_sid=113942&p_aid=132751&p_link=3364&p_tok=cd582f1e-fc7f-40b3-8a6c-a528ab6d841a",
+            "short_url": "https://bit.ly/wdd_premium_bootstrap",
+            "image_url": "/images/bs5.jpg_large",
+            "old_price": "473",
+            "new_price": "79"
         }
     ],
     "free": [
         {
-            "title": "Kitten 3",
-            "url": "#",
-            "image_url": "http://placekitten.com/g/200/301"
+            "title": "CSS Cheat Sheet",
+            "url": "https://gum.co/css-cheat",
+            "short_url": "https://bit.ly/wdd_css_cheatsheet",
+            "image_url": "/images/css_cheat_sheet.jpg_medium"
         },
         {
-            "title": "Kitten 4",
-            "url": "#",
-            "image_url": "http://placekitten.com/g/200/302"
+            "title": "JavaScript Code Snippets",
+            "url": "https://gumroad.com/l/65-js-codesnippets",
+            "short_url": "https://bit.ly/wdd_javascript_snippets",
+            "image_url": "/images/js_snippets.png"
         },
         {
-            "title": "Kitten 5",
-            "url": "#",
-            "image_url": "http://placekitten.com/g/200/304"
+            "title": "50 React Projects",
+            "url": "https://50reactprojects.com/",
+            "short_url": "https://bit.ly/wdd_50_react",
+            "image_url": "/images/50_react.jpg"
         }
     ]
 }

@@ -691,6 +691,10 @@ video {
   margin-bottom: -2.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }
@@ -848,6 +852,10 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -886,10 +894,6 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
 }
 
 .rounded {
