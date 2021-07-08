@@ -1,36 +1,36 @@
 {
-    "new_deals_date": "July 19 2021 10:00:00 UTC+3",
+    "new_deals_date": "July 26 2021 10:00:00 UTC+3",
     "featured": [
         {
-            "title": "Become A VS Code SuperHero",
-            "url": "https://vscodehero.com/?p=80&coupon=FLORIN80",
-            "image_url": "/images/vs_code.png",
-            "old_price": "99",
-            "new_price": "19"
+            "title": "Beginner Tailwind",
+            "url": "https://beginnertailwind.com/?coupon=POPPIN",
+            "image_url": "/images/tailwind.png",
+            "old_price": "47",
+            "new_price": "10"
         },
         {
-            "title": "The Unstoppable Freelancer",
-            "url": "https://jovancicmil.gumroad.com/l/BeFree/weeklydeal",
-            "image_url": "/images/the_unstoppable_freelancer.jpg",
-            "old_price": "15.99",
+            "title": "Django 2021",
+            "url": "https://dennisivy.teachable.com/p/django-beginners-course",
+            "image_url": "/images/django.png",
+            "old_price": "19.99",
             "new_price": "9.99"
         }
     ],
     "free": [
         {
-            "title": "Conquering Responsive Layouts",
-            "url": "https://courses.kevinpowell.co/conquering-responsive-layouts",
-            "image_url": "/images/crl.jpg"
+            "title": "JavaScript Beginner's Handbook",
+            "url": "https://flaviocopes.com/page/javascript-handbook/",
+            "image_url": "/images/book_javascript.png"
         },
         {
-            "title": "Get Started with JavaScript",
-            "url": "https://beginnerwebdev.com/",
-            "image_url": "/images/js_fundamentals.png"
+            "title": "add_product",
+            "url": "add_product_url",
+            "image_url": "/images/add_product.png"
         },
         {
-            "title": "Introduction To Vue",
-            "url": "https://school.programwitherik.com/p/vue-360-week-1/?product_id=3050666&coupon_code=100OFFFLORIN",
-            "image_url": "/images/vue_introduction.png"
+            "title": "add_product",
+            "url": "add_product_url",
+            "image_url": "/images/add_product.png"
         }
     ]
 }
