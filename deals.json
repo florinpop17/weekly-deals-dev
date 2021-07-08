@@ -1,41 +1,36 @@
 {
-    "new_deals_date": "July 12 2021 00:00:00",
+    "new_deals_date": "July 19 2021 10:00:00 UTC+3",
     "featured": [
         {
-            "title": "Freelancing Bundle",
-            "url": "https://gumroad.com/l/freelancerbundle/devdeals",
-            "short_url": "https://bit.ly/wdd_freelancing_bundle",
-            "image_url": "/images/freelancing_bundle.jpeg",
-            "old_price": "69",
-            "new_price": "49"
+            "title": "Become A VS Code SuperHero",
+            "url": "https://vscodehero.com/?p=80&coupon=FLORIN80",
+            "image_url": "/images/vs_code.png",
+            "old_price": "99",
+            "new_price": "19"
         },
         {
-            "title": "Premium Bootstrap Themes",
-            "url": "https://themesberg.com/summer-sale?status=accepted&expires=1627740149&p_sid=113942&p_aid=132751&p_link=3364&p_tok=cd582f1e-fc7f-40b3-8a6c-a528ab6d841a",
-            "short_url": "https://bit.ly/wdd_premium_bootstrap",
-            "image_url": "/images/bs5.jpg_large",
-            "old_price": "473",
-            "new_price": "79"
+            "title": "The Unstoppable Freelancer",
+            "url": "https://jovancicmil.gumroad.com/l/BeFree/weeklydeal",
+            "image_url": "/images/the_unstoppable_freelancer.jpg",
+            "old_price": "15.99",
+            "new_price": "9.99"
         }
     ],
     "free": [
         {
-            "title": "CSS Cheat Sheet",
-            "url": "https://gum.co/css-cheat",
-            "short_url": "https://bit.ly/wdd_css_cheatsheet",
-            "image_url": "/images/css_cheat_sheet.jpg_medium"
+            "title": "Conquering Responsive Layouts",
+            "url": "https://courses.kevinpowell.co/conquering-responsive-layouts",
+            "image_url": "/images/crl.jpg"
         },
         {
-            "title": "JavaScript Code Snippets",
-            "url": "https://gumroad.com/l/65-js-codesnippets",
-            "short_url": "https://bit.ly/wdd_javascript_snippets",
-            "image_url": "/images/js_snippets.png"
+            "title": "Get Started with JavaScript",
+            "url": "https://beginnerwebdev.com/",
+            "image_url": "/images/js_fundamentals.png"
         },
         {
-            "title": "50 React Projects",
-            "url": "https://50reactprojects.com/",
-            "short_url": "https://bit.ly/wdd_50_react",
-            "image_url": "/images/50_react.jpg"
+            "title": "Introduction To Vue",
+            "url": "https://school.programwitherik.com/p/vue-360-week-1/?product_id=3050666&coupon_code=100OFFFLORIN",
+            "image_url": "/images/vue_introduction.png"
         }
     ]
 }
