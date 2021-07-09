@@ -10,7 +10,7 @@
         },
         {
             "title": "Django 2021",
-            "url": "https://dennisivy.teachable.com/p/django-beginners-course",
+            "url": "https://dennisivy.teachable.com/p/django-beginners-course/?product_id=3222835&coupon_code=POPPER",
             "image_url": "/images/django.png",
             "old_price": "19.99",
             "new_price": "9.99"
@@ -23,14 +23,14 @@
             "image_url": "/images/book_javascript.png"
         },
         {
-            "title": "add_product",
-            "url": "add_product_url",
-            "image_url": "/images/add_product.png"
+            "title": "Web Dev Roadmap",
+            "url": "https://webdevsimplified.com/web-dev-roadmap.html",
+            "image_url": "/images/web_roadmap.png"
         },
         {
-            "title": "add_product",
-            "url": "add_product_url",
-            "image_url": "/images/add_product.png"
+            "title": "Java Programming",
+            "url": "https://testautomationu.applitools.com/java-programming-course/",
+            "image_url": "/images/java_programming.jpg_medium"
         }
     ]
 }
