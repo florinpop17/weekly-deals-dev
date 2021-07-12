@@ -87,7 +87,7 @@ function createFreeProduct(product) {
         <h3 class="text-white text-3xl text-center my-4">${product.title}</h3>
     `;
 
-    wrapper.href = product.short_url;
+    wrapper.href = product.url;
     wrapper.target = "_blank";
     wrapper.className = `w-full max-w-sm transform transition hover:-translate-y-1 hover:shadow-xl`;
 
@@ -137,7 +137,7 @@ function createFeaturedProduct(product) {
         <h3 class="text-white text-3xl text-center my-4">${product.title}</h3>
     `;
 
-    wrapper.href = product.short_url;
+    wrapper.href = product.url;
     wrapper.target = "_blank";
     wrapper.className = `w-full md:max-w-xl transform transition hover:-translate-y-1 hover:shadow-xl`;
 
