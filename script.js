@@ -35,7 +35,10 @@ fetch("./deals.json")
         featured.forEach((product) => createFeaturedProduct(product));
         free.forEach((product) => createFreeProduct(product));
     });
-
+/*
+This returns the time left between the fere deals date
+and the current date
+*/
 function countdown() {
     if (!endTime) return;
 
@@ -59,6 +62,27 @@ function countdown() {
     }
 }
 
+/*
+@type {
+    featured : [{
+        title : string,
+        url : string,
+        imgUrl : string,
+        oldPrice : number,
+        newPrice : number
+    }],
+    free : [{
+        title : string,
+        imgUrl : string,
+        url : string
+    }]
+} product
+*/
+
+/*
+Creates the product div for a "featured" or a "free" product
+@param {JSON} product
+*/
 function createFreeProduct(product) {
     const wrapper = document.createElement("a");
     wrapper.innerHTML = `
