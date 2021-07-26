@@ -1,36 +1,43 @@
 {
-    "new_deals_date": "July 26 2021 10:00:00 UTC+3",
+    "new_deals_date": "August 2 2021 10:00:00 UTC+3",
     "featured": [
         {
-            "title": "Beginner Tailwind",
-            "url": "https://beginnertailwind.com/?coupon=POPPIN",
-            "image_url": "/images/tailwind.png",
-            "old_price": "47",
-            "new_price": "10"
+            "title": "DevDojo Pro",
+            "url": "https://devdojo.com/pro?coupon=WEEKLYDEALS",
+            "image_url": "/images/devdojo-pro.jpg",
+            "old_price": "15",
+            "new_price": "7"
         },
         {
-            "title": "Django 2021",
-            "url": "https://dennisivy.teachable.com/p/django-beginners-course-popper",
-            "image_url": "/images/django.png",
+            "title": "Beginner's Guide to Start a SaaS",
+            "url": "https://sunilkumarc.gumroad.com/l/kgtSS/weeklydeals",
+            "image_url": "/images/saas-book.png",
             "old_price": "19.99",
             "new_price": "9.99"
+        },
+        {
+            "title": "Become a Better Software Architect",
+            "url": "https://leanpub.com/betterSoftwareArchitect/c/florinpop",
+            "image_url": "/images/architect.png",
+            "old_price": "24.90",
+            "new_price": "12.45"
         }
     ],
     "free": [
         {
-            "title": "JavaScript Beginner's Handbook",
-            "url": "https://flaviocopes.com/page/javascript-handbook/",
-            "image_url": "/images/book_javascript.png"
+            "title": "React Beginner's Handbook",
+            "url": "https://flaviocopes.com/page/react-handbook/",
+            "image_url": "/images/book-react.jpg"
         },
         {
-            "title": "Web Dev Roadmap",
-            "url": "https://webdevsimplified.com/web-dev-roadmap.html",
-            "image_url": "/images/web_roadmap.png"
+            "title": "Build an Effective Dev Portfolio",
+            "url": "https://www.joshwcomeau.com/effective-portfolio/",
+            "image_url": "/images/dev_portfolio.png"
         },
         {
-            "title": "Java Programming Course",
-            "url": "https://testautomationu.applitools.com/java-programming-course/",
-            "image_url": "/images/java_programming.jpg_medium"
+            "title": "DailyDev News",
+            "url": "https://daily.dev/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/daily_dev.jpg_medium"
         }
     ]
 }
