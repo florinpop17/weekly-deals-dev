@@ -98,19 +98,35 @@ function createFeaturedProduct(product) {
     const wrapper = document.createElement("a");
     wrapper.innerHTML = `
         <div class="block w-full h-96 relative">
-            <span
+            <div
                 class="
-                    bg-purple-700
                     text-white text-3xl
-                    font-semibold
-                    py-3
-                    px-4
+                    font-bold
+                    h-32
+                    w-32
                     top-0
                     right-0
+                    -mt-1
+                    -mr-1
                     absolute
-                    rounded-bl-sm
+                    overflow-hidden
                 "
-                >Featured</span
+                >
+                    <div class="
+                        
+                        bg-red-500
+                        text-white
+                        w-60
+                        py-4
+                        text-center
+                        transform
+                        rotate-45
+                        mt-2
+                        -ml-8
+                    ">
+                    ${calculatePercentage(product.old_price, product.new_price)}
+                    </div>
+                </div
             >
 
             <img
@@ -142,4 +158,9 @@ function createFeaturedProduct(product) {
     wrapper.className = `w-full md:max-w-xl transform transition hover:-translate-y-1 hover:shadow-xl`;
 
     featuredDealsEl.appendChild(wrapper);
+}
+
+function calculatePercentage(oldPrice, newPrice) {
+    const percentage = (newPrice * 100) / oldPrice;
+    return `-${percentage.toFixed(0)}%`;
 }
