@@ -2,42 +2,35 @@
     "new_deals_date": "August 2 2021 10:00:00 UTC+3",
     "featured": [
         {
-            "title": "DevDojo Pro",
-            "url": "https://devdojo.com/pro?coupon=WEEKLYDEALS",
-            "image_url": "/images/devdojo-pro.jpg",
-            "old_price": "15",
-            "new_price": "7"
-        },
-        {
-            "title": "Beginner's Guide to Start a SaaS",
-            "url": "https://sunilkumarc.gumroad.com/l/kgtSS/weeklydeals",
-            "image_url": "/images/saas-book.png",
+            "title": "Python 101: 2nd Edition",
+            "url": "https://driscollis.gumroad.com/l/pypy101/deal%24",
+            "image_url": "/images/python101.jpg",
             "old_price": "19.99",
             "new_price": "9.99"
         },
         {
-            "title": "Become a Better Software Architect",
-            "url": "https://leanpub.com/betterSoftwareArchitect/c/florinpop",
-            "image_url": "/images/architect.png",
-            "old_price": "24.90",
-            "new_price": "12.45"
+            "title": "Web Developer Knowledge",
+            "url": "https://vladpasca5.gumroad.com/l/web-developer-knowledge/wdeals",
+            "image_url": "/images/web_knowledge.jpg",
+            "old_price": "10",
+            "new_price": "5"
         }
     ],
     "free": [
         {
-            "title": "React Beginner's Handbook",
-            "url": "https://flaviocopes.com/page/react-handbook/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/book-react.jpg"
+            "title": "Grokking TypeScript",
+            "url": "https://kowalevski.com/typescript-book/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/typescript.png"
         },
         {
-            "title": "Build an Effective Dev Portfolio",
-            "url": "https://www.joshwcomeau.com/effective-portfolio/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/dev_portfolio.png"
+            "title": "Introduction to Bash Scripting",
+            "url": "https://ebook.bobby.sh/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/bash.jpg"
         },
         {
-            "title": "DailyDev News",
-            "url": "https://daily.dev/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/daily_dev.jpg_medium"
+            "title": "Be A Better Freelancer",
+            "url": "https://tom-hirst.gumroad.com/l/NHvhIm/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/freelancing.jpg"
         }
     ]
 }
