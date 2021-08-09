@@ -161,6 +161,6 @@ function createFeaturedProduct(product) {
 }
 
 function calculatePercentage(oldPrice, newPrice) {
-    const percentage = (newPrice * 100) / oldPrice;
+    const percentage = ((oldPrice - newPrice) / oldPrice) * 100;
     return `-${percentage.toFixed(0)}%`;
 }
