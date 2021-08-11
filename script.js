@@ -62,7 +62,7 @@ function countdown() {
 function createFreeProduct(product) {
     const wrapper = document.createElement("a");
     wrapper.innerHTML = `
-        <div class="block w-full h-60 relative">
+        <div class="block w-full h-60 relative group bg-gray-800">
             <img
                 class="w-full h-full object-cover"
                 src="${product.image_url}"
@@ -83,6 +83,7 @@ function createFreeProduct(product) {
             >
                 FREE
             </span>
+            ${createSocialButtons(product.title, 100)}
         </div>
         <h3 class="text-white text-3xl text-center my-4">${product.title}</h3>
     `;
@@ -96,8 +97,9 @@ function createFreeProduct(product) {
 
 function createFeaturedProduct(product) {
     const wrapper = document.createElement("a");
+    const discount = calculatePercentage(product.old_price, product.new_price);
     wrapper.innerHTML = `
-        <div class="block w-full h-96 relative">
+        <div class="block w-full h-96 relative group bg-gray-800">
             <div
                 class="
                     text-white text-3xl
@@ -124,7 +126,7 @@ function createFeaturedProduct(product) {
                         mt-2
                         -ml-8
                     ">
-                    ${calculatePercentage(product.old_price, product.new_price)}
+                    -${discount}%
                     </div>
                 </div
             >
@@ -149,6 +151,7 @@ function createFeaturedProduct(product) {
                 $${product.new_price}
                 <del class="text-2xl">$${product.old_price}</del>
             </span>
+            ${createSocialButtons(product.title, discount)}
         </div>
         <h3 class="text-white text-3xl text-center my-4">${product.title}</h3>
     `;
@@ -162,5 +165,45 @@ function createFeaturedProduct(product) {
 
 function calculatePercentage(oldPrice, newPrice) {
     const percentage = ((oldPrice - newPrice) / oldPrice) * 100;
-    return `-${percentage.toFixed(0)}%`;
+    return percentage.toFixed(0);
+}
+
+function createSocialButtons(title, discount) {
+    const html = `
+        <div class="absolute top-0 left-0 flex flex-col space-y-1 -z-10 transform transition group-hover:-translate-x-10">
+            <a
+                target="_blank"
+                href="https://twitter.com/intent/tweet?text=This%20week%20you%20can%20get%20%22${title}%22%20on%20https%3A//WeeklyDeals.dev%20for%20${
+        discount < 100 ? `${discount}%25%20off` : "FREE"
+    }!%0A%0ACheck%20it%20out!%20%F0%9F%91%87"
+                rel="noreferrer"
+                class="
+                    bg-twitter
+                    text-white
+                    font-semibold
+                    rounded-l
+                    p-2
+                "
+                ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-twitter"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="#ffffff"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+                    />
+                </svg>
+            </a>
+        </div>
+    `;
+
+    return html;
 }
