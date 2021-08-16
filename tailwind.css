@@ -759,10 +759,6 @@ video {
   height: 15rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-full {
   height: 100%;
 }
@@ -785,10 +781,6 @@ video {
 
 .w-60 {
   width: 15rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-auto {
@@ -1067,11 +1059,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1232,6 +1219,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-96 {
+    height: 24rem;
   }
 
   .md\:w-auto {

@@ -99,7 +99,7 @@ function createFeaturedProduct(product) {
     const wrapper = document.createElement("a");
     const discount = calculatePercentage(product.old_price, product.new_price);
     wrapper.innerHTML = `
-        <div class="block w-full h-96 relative group bg-gray-800">
+        <div class="block w-full h-60 md:h-96 relative group bg-gray-800">
             <div
                 class="
                     text-white text-3xl
