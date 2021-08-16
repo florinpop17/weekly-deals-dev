@@ -441,31 +441,50 @@
                 xl:max-w-screen-xl
             "
         >
-            <!-- <h2
-                class="
-                    text-5xl text-white
-                    font-semibold
-                    mt-12
-                    mb-8
-                    text-center
-                    md:text-left
-                "
+            <h2
+                class="text-5xl text-white font-semibold mt-12 mb-8 text-center"
             >
                 Special Sponsor 🥇
             </h2>
-            <div class="h-48 w-full bg-purple-700"></div> -->
-            <h2
+            <a
+                href="https://birdslate.com/weeklydeals"
+                target="_blank"
+                class="block h-48 w-96 mx-auto md:w-full bg-gray-800"
+            >
+                <img
+                    class="w-full h-full object-cover hidden md:inline-block"
+                    src="./images/banner.png"
+                    alt="Birdslate Banner"
+                />
+                <img
+                    class="w-auto h-full object-fit md:hidden"
+                    src="./images/banner-mobile.png"
+                    alt="Birdslate Banner Mobile"
+                />
+                <!-- <img
+                    class="w-full h-full object-cover"
+                    srcset="
+                        ./images/banner-mobile.png  420w,
+                        ./images/banner.png        1184w
+                    "
+                    sizes="(max-width: 600px) 420px,
+            800px"
+                    src="./images/banner.png"
+                    alt="Birdslate Banner"
+                /> -->
+            </a>
+            <h3
                 class="
-                    text-5xl text-white
+                    text-4xl text-white
                     font-semibold
-                    mt-12
+                    mt-16
                     mb-8
                     text-center
                     md:text-left
                 "
             >
                 Featured Deals
-            </h2>
+            </h3>
             <div
                 class="
                     flex flex-col
@@ -477,18 +496,18 @@
                 "
                 id="featured_deals"
             ></div>
-            <h2
+            <h3
                 class="
-                    text-5xl text-white
+                    text-4xl text-white
                     font-semibold
-                    mt-24
+                    mt-16
                     mb-8
                     text-center
                     md:text-left
                 "
             >
                 Free Deals
-            </h2>
+            </h3>
             <div
                 class="
                     flex flex-col

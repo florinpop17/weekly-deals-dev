@@ -1,36 +1,36 @@
 {
-    "new_deals_date": "August 16 2021 10:00:00 UTC+3",
+    "new_deals_date": "August 23 2021 10:00:00 UTC+3",
     "featured": [
         {
-            "title": "Stratospheric",
-            "url": "https://leanpub.com/stratospheric/c/weeklydealsdev",
-            "image_url": "/images/stratospheric.png",
-            "old_price": "39",
-            "new_price": "19"
+            "title": "Ten++ Ways to Make Money as a Developer",
+            "url": "https://florinpop17.gumroad.com/l/makemoneydev/weeklydeals",
+            "image_url": "/images/ebook-cover.png",
+            "old_price": "25",
+            "new_price": "10"
         },
         {
-            "title": "The Prime Guide For Next Gen Developer",
-            "url": "https://theankurtyagi.gumroad.com/l/nextgendev/Devs",
-            "image_url": "/images/prime.png",
-            "old_price": "22",
-            "new_price": "11"
+            "title": "Become A VS Code SuperHero",
+            "url": "https://vscodehero.com/?p=80&coupon=FLORIN80",
+            "image_url": "/images/vs_code.png",
+            "old_price": "99",
+            "new_price": "19"
         }
     ],
     "free": [
         {
-            "title": "Mastering the Coding Mindset",
-            "url": "https://madsbrodt.gumroad.com/l/mastering-coding-mindset-complete/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/mindset.png"
+            "title": "JavaScript Illustrated",
+            "url": "https://kapeelkokane.gumroad.com/l/jsillustrated/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/js-illustrated.jpg"
         },
         {
-            "title": "Python Bundle",
-            "url": "https://learnbyexample.gumroad.com/l/python-bundle/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/python-bundle.webp"
+            "title": "50 UI Interfaces",
+            "url": "https://fifty.user-interface.io/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/ui-book.png"
         },
         {
-            "title": "Full Stack Roadmap",
-            "url": "https://mdjunaidap.gumroad.com/l/fullstack-dev-roadmap/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/full-stack-roadmap.png"
+            "title": "Neural Networks Fundamentals with Python",
+            "url": "https://mathspp.gumroad.com/l/nnfwp/583w0t1/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/nn.jpg"
         }
     ]
 }
