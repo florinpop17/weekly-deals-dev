@@ -1,36 +1,36 @@
 {
-    "new_deals_date": "August 23 2021 10:00:00 UTC+3",
+    "new_deals_date": "August 30 2021 17:00:00 UTC+3",
     "featured": [
         {
             "title": "Ten++ Ways to Make Money as a Developer",
-            "url": "https://florinpop17.gumroad.com/l/makemoneydev/weeklydeals",
-            "image_url": "/images/ebook-cover.png",
-            "old_price": "25",
-            "new_price": "10"
+            "url": "https://codecrafters.io/?promo=weekly-deals-dev",
+            "image_url": "/images/codecrafters.png",
+            "old_price": "49",
+            "new_price": "25"
         },
         {
-            "title": "Become A VS Code SuperHero",
-            "url": "https://vscodehero.com/?p=80&coupon=FLORIN80",
-            "image_url": "/images/vs_code.png",
-            "old_price": "99",
-            "new_price": "19"
+            "title": "Protect Your PHP Code",
+            "url": "https://www.sourceguardian.com/signup.html?showdiscount=1&dis=N4HKLkMKXeAOMmYs",
+            "image_url": "/images/php-protect.png",
+            "old_price": "199",
+            "new_price": "99.50"
         }
     ],
     "free": [
         {
-            "title": "JavaScript Illustrated",
-            "url": "https://kapeelkokane.gumroad.com/l/jsillustrated/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/js-illustrated.jpg"
+            "title": "Start Freelancing from Anywhere",
+            "url": "https://rohitgulam.gumroad.com/l/alJwN/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/freelancing-anywhere.png"
         },
         {
-            "title": "50 UI Interfaces",
-            "url": "https://fifty.user-interface.io/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/ui-book.png"
+            "title": "From Aspire to Hired",
+            "url": "https://robkendal.gumroad.com/l/from-aspire-to-hired/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/aspire-hired.jpg"
         },
         {
-            "title": "Neural Networks Fundamentals with Python",
-            "url": "https://mathspp.gumroad.com/l/nnfwp/583w0t1/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/nn.jpg"
+            "title": "The Developer Handbook",
+            "url": "https://prasoonpratham.gumroad.com/l/ShAtuT/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/dev-handbook.png"
         }
     ]
 }

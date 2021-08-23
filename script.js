@@ -64,7 +64,7 @@ function createFreeProduct(product) {
     wrapper.innerHTML = `
         <div class="block w-full h-60 relative group bg-gray-800">
             <img
-                class="w-auto mx-auto h-full object-fit"
+                class="w-full h-full object-cover"
                 src="${product.image_url}"
                 alt="${product.title}"
             />
