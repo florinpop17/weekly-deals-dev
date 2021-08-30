@@ -2,35 +2,35 @@
     "new_deals_date": "August 30 2021 17:00:00 UTC+3",
     "featured": [
         {
-            "title": "CodeCrafters - Advanced Programming Challenges",
-            "url": "https://codecrafters.io/?promo=weekly-deals-dev",
-            "image_url": "/images/codecrafters.png",
-            "old_price": "49",
-            "new_price": "24.50"
+            "title": "Frontend Unicorn - Become a Unicorn Developer",
+            "url": "https://h4academy.gumroad.com/l/frontendunicorn/rai398a",
+            "image_url": "/images/frontend-unicorn.jpg",
+            "old_price": "70",
+            "new_price": "42"
         },
         {
-            "title": "Protect Your PHP Code",
-            "url": "https://www.sourceguardian.com/signup.html?showdiscount=1&dis=N4HKLkMKXeAOMmYs",
-            "image_url": "/images/php-protect.png",
-            "old_price": "199",
-            "new_price": "99.50"
+            "title": "HTML To React: The Ultimate Guide",
+            "url": "https://ngninja.gumroad.com/l/html2react/weeklydeals",
+            "image_url": "/images/htmlreact.png",
+            "old_price": "40",
+            "new_price": "16"
         }
     ],
     "free": [
         {
-            "title": "Start Freelancing from Anywhere",
-            "url": "https://rohitgulam.gumroad.com/l/alJwN/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/freelancing-anywhere.png"
+            "title": "React & TailwindCSS Components Kit",
+            "url": "https://templatana.gumroad.com/l/QaruQ/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/react-tailwind.png"
         },
         {
-            "title": "From Aspire to Hired",
-            "url": "https://robkendal.gumroad.com/l/from-aspire-to-hired/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/aspire-hired.jpg"
+            "title": "The Customer Funnel - Kickstart Your Freelance Journey",
+            "url": "https://vittorio.gumroad.com/l/thecustomerfunnel/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/customer-funnel.jpg"
         },
         {
-            "title": "The Developer Handbook",
-            "url": "https://prasoonpratham.gumroad.com/l/ShAtuT/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/dev-handbook.png"
+            "title": "React Hooks Cheat Sheet",
+            "url": "https://scastiel.gumroad.com/l/react-hooks-cheatsheet/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/react-hooks.jpg"
         }
     ]
 }
