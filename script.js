@@ -100,7 +100,9 @@ function createFeaturedProduct(product) {
     const discount = calculatePercentage(product.old_price, product.new_price);
     wrapper.innerHTML = `
         <div class="block w-full h-60 md:h-96 relative group bg-gray-800">
-            <div
+            ${
+                discount > 0
+                    ? `<div
                 class="
                     text-white text-3xl
                     font-bold
@@ -129,7 +131,9 @@ function createFeaturedProduct(product) {
                     -${discount}%
                     </div>
                 </div
-            >
+            >`
+                    : ``
+            }
 
             <img
                 class="w-full h-full object-cover"
@@ -148,8 +152,12 @@ function createFeaturedProduct(product) {
                     rounded-tr-sm
                 "
             >
-                $${product.new_price}
-                <del class="text-2xl">$${product.old_price}</del>
+                ${
+                    product.text
+                        ? product.text
+                        : `$${product.new_price}
+                    <del class="text-2xl">$${product.old_price}</del>`
+                }
             </span>
             ${createSocialButtons(product.title, discount)}
         </div>

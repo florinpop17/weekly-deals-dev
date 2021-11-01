@@ -1,36 +1,37 @@
 {
-    "new_deals_date": "September 27 2021 17:00:00 UTC+3",
+    "new_deals_date": "November 8 2021 16:00:00 UTC+2",
     "featured": [
         {
-            "title": "Frontend Unicorn - Become a Unicorn Developer",
-            "url": "https://h4academy.gumroad.com/l/frontendunicorn/rai398a",
-            "image_url": "/images/frontend-unicorn.jpg",
-            "old_price": "70",
-            "new_price": "42"
+            "title": "JavaScript in the Industry",
+            "url": "https://simonhoiberg.com/ebooks/javascript-in-the-industry?utm_source=weeklydevdeals&offer=weeklydevdeals",
+            "image_url": "/images/js-industry.png",
+            "old_price": "29",
+            "new_price": "19"
         },
         {
-            "title": "HTML To React: The Ultimate Guide",
-            "url": "https://ngninja.gumroad.com/l/html2react/weeklydeals",
-            "image_url": "/images/htmlreact.png",
-            "old_price": "40",
-            "new_price": "16"
+            "title": "Freelance Mastery",
+            "url": "https://freelancemastery.dev/?affcode=1074889_zipgsdev",
+            "image_url": "/images/freelance-mastery.png",
+            "old_price": "49",
+            "new_price": "49",
+            "text": "Black Friday Deal"
         }
     ],
     "free": [
         {
-            "title": "React & TailwindCSS Components Kit",
-            "url": "https://templatana.gumroad.com/l/QaruQ/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/react-tailwind.png"
+            "title": "HTML & CSS best practices",
+            "url": "https://georgemoller.gumroad.com/l/hQWSH/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/100-html-css.png"
         },
         {
-            "title": "The Customer Funnel - Kickstart Your Freelance Journey",
-            "url": "https://vittorio.gumroad.com/l/thecustomerfunnel/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/customer-funnel.jpg"
+            "title": "Python to Projects",
+            "url": "https://bhavaniravi.gumroad.com/l/SQXxE/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/python-projects.webp"
         },
         {
-            "title": "React Hooks Cheat Sheet",
-            "url": "https://scastiel.gumroad.com/l/react-hooks-cheatsheet/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
-            "image_url": "/images/react-hooks.jpg"
+            "title": "React Testing",
+            "url": "https://testingreact.katifrantz.com/?utm_source=weeklydeals&utm_medium=banner&utm_campaign=weeklydeals",
+            "image_url": "/images/react-testing.png"
         }
     ]
 }
